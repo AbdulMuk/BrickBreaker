@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brick Breaker</title>
+    <link rel="stylesheet" href="./brickBreaker.css">
+</head>
+
+<body>
+    <header>
+        <h1>Brick Breaker</h1>
+    </header>
+    <main>
+        <section id="top">
+            <button class="btn" id="start" onclick="start()">Start</button>
+            <p id="outcome"></p>
+            <p id="scoreD">Score: <span id="score">0</span></p>
+            <button class="btn" id="reset" onclick="reset()">Reset</button>
+        </section>
+        <section>
+            <p id="instructions">Use left and right arrow keys to control paddle.</p>
+        </section>
+        <section>
+            <div class="grid"></div>
+        </section>
+    </main>
+    <footer>
+        <p id="creator">Created by: Abdul Mukit. &copy; 2021-2022</p>
+        <div id="credit">
+            <p>Background Music by: Rolemusic</p>
+            <p>Sound by: Monplaisir</p>
+        </div>
+    </footer>
+    <script src="./brickBreaker.js"></script>
+</body>
+
+</html>

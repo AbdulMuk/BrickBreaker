@@ -1,0 +1,113 @@
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(./bricks.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header{
+    padding: 30px 0 10px 0;
+}
+
+h1{
+    text-shadow: 5px 5px 8px rgb(138, 7, 3);
+    color: white;
+    font-size: 38px;
+}
+
+#top{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 150px;
+    padding: 10px;
+    justify-content: center;
+}
+
+.btn{
+    padding: 4px 8px;
+    color: white;
+    font-size: 14px;
+}
+
+#start{
+    background-color: seagreen;
+}
+
+#reset{
+    background-color: slateblue;
+}
+
+#scoreD{
+    font-weight: bold;
+    font-size: 22px;
+    color:rgb(21, 255, 0);
+    text-shadow: 1px 1px darkslategray;
+}
+
+#outcome{
+    font-weight: bold;
+    font-size: 22px;
+    text-shadow: 0 0 20px darkslategray;
+    color: red;
+    transition: 1s;
+}
+
+.grid{
+    position: relative;
+    margin: 25px auto 0 auto;
+    width: 810px;
+    height: 460px;
+    border: 2px solid black;
+}
+
+.block{
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background-color: rgb(236, 145, 8);
+    border: 2px solid rgb(133, 81, 4);
+}
+
+.user{
+    position: absolute;
+    width: 100px;
+    height: 14px;
+    background-color: rgb(4, 4, 192);
+    border: 2px solid rgb(24, 0, 109);
+}
+
+.ball{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: red;
+    border: 1px solid rgb(172, 2, 2);
+}
+
+footer{
+    background-color: black;
+    padding: 4px 20px;
+    color: white;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#creator{
+    font-weight: bold;
+    align-self: center;
+}
+
+#credit > p{
+    font-size: 12px;
+    text-align: right;
+}
